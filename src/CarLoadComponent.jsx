@@ -19,7 +19,7 @@ export function CarLoadComponent ({deleteArticleCart}) {
                 }
             </ul>
             {
-                datas.length > 0 && <h2>Total articles: ${ reduce } </h2>
+                datas.length > 0 && <h2>Total Articles: ${ reduce } </h2>
             }
         </div>
     );
